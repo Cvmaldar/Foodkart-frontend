@@ -8,7 +8,7 @@ const Signup = () => {
 
     const handlesubmit=async(e)=>{
         e.preventDefault();// React uses synthetic events to handle events from button, input and form elements called preventDefault
-        const response= await fetch("http://localhost:5000/api/createuser",{
+        const response= await fetch("https://foodkart-ehyg.onrender.com/api/createuser",{
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'

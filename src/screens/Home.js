@@ -11,7 +11,7 @@ const Home = () => {
   const [foodItem, setfoodItem] = useState([]);
 
   const loadData = async () => {
-    let response = await fetch("http://localhost:5000/api/foodData", {
+    let response = await fetch("https://foodkart-ehyg.onrender.com/api/foodData", {
       method: "POST",
       headers: {
         "content-Type": "application/json",
