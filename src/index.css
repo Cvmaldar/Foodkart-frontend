@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'NHaasGroteskDSPro-65Md' !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#carousel{
+  max-height: 500px;
+}
+.checkout{
+  margin-left: -135px;
+  height: 5vh;
+  width: 8vw;
+}
+.payment{
+  display: flex;
+  padding: 20px;
+
+}
+.cart{
+  height: 5vh;
+  width: 8vw;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
